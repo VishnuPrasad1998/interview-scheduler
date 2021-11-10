@@ -3,7 +3,7 @@ This is a simple REST Web Api for online scheduling interviews. Implemented usin
 
 ## Features:
 1. Interviewer/Interviewee can schedule an interview(POST).
-2. HR can list all interviews by entering ids of interviewer and interviewee.
+2. HR can list all interviews by entering ids of interviewer and interviewee(GET).
 3. Token based authentication and role based authorization(HR, Interviewer, Interviewee, Admin)
 4. Fully functional Django-Admin panel.
 
@@ -41,3 +41,4 @@ Click here to watch some snapshots[Here](https://ibb.co/cg8RT99)
 ## Improvements and Future Scope:
 1. Dockerization to be done
 2. Scheduling is now based on date and assumption is an interviewer and interviewee can schedule interview once a day. It can be modified to different slots     within day.
+3. Remove secretkey/dbcredentials inorder to avoid vulnerabilities.
