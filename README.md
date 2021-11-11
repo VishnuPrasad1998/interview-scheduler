@@ -32,6 +32,8 @@ python manage.py migrate
 python manage.py runserver
 python manage.py createsuperuser
 ```
+7. After creating users via API/Admin dashboard and super user Admin should enter the admin portal and should add users to their corresponding interviewer/interviewee model. This is done based on an assumption. Can be made better by adding this step at the registration flow itself.
+
 ## Endpoints and response:
 Use postman for executing API's(Swagger Integration is in the future scope)
 API docs:
