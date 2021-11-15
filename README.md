@@ -40,7 +40,14 @@ API docs:
 [API Docs](https://documenter.getpostman.com/view/11431269/UVC6hmYL)
 Click here to watch some snapshots[Here](https://ibb.co/cg8RT99)
 
+## Assumptions:
+1. A interviewer-Interviewee can schedule one interview a day
+2. Time format in which is scheduled is From-HH:MM:SS To-HH:MM:SS(It can be updated to multiple choices like 10am-11am etc)
+3. Superuser/Admin adds users into particular type(Interviewer/Interviewee Foreign key relationship establishment with users) should changed into such a way that it is to be done automatically in registration time.
+
 ## Improvements and Future Scope:
 1. Dockerization to be done
 2. Scheduling is now based on date and assumption is an interviewer and interviewee can schedule interview once a day. It can be modified to different slots     within day.
 3. Remove secretkey/dbcredentials inorder to avoid vulnerabilities.
+4. Mapings can be implemented between interview slots.
+
